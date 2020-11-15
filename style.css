@@ -10,7 +10,9 @@ body {
 /* color change of all <li> */
 
 .list-item li {
-    color: violet;
+    color: purple;
+    font: bold;
+
 }
 
 /* bordering the content list */
@@ -22,3 +24,15 @@ body {
     padding: 20px;
 }
 
+/* #1.  changing the headings color */
+
+/* h1, h2, h3, h4, h5 {
+    color: red;
+} */
+
+/* #2. or with a class-.heading */
+
+.heading {
+
+    color: red;
+}

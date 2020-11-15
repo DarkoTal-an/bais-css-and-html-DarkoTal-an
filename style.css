@@ -10,8 +10,9 @@ body {
 /* color change of all <li> */
 
 .list-item li {
-    color: purple;
-    font: bold;
+    color: blue;
+    font-size: large;
+    font-weight: bold;
 
 }
 
@@ -22,6 +23,7 @@ body {
     border: 2px solid black;
     margin: 20px;
     padding: 20px;
+    
 }
 
 /* #1.  changing the headings color */
@@ -35,4 +37,23 @@ body {
 .heading {
 
     color: red;
+}
+
+/* background color change with an ID Attribute */
+
+#back-color {
+    background-color: lightblue;
+}
+
+/* Bonus:back-color + opacity  40% (0.4)change with an ID */
+
+#back-opacity-color {
+    background-color: rgb(156, 177, 195, 0.4);
+    
+}
+
+/* and without opacity -just for comparison  */
+
+#back-noopacity-color {
+    background-color: rgb(156, 177, 195);
 }

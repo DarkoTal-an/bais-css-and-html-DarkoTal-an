@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My favourite Wiki</title>
     
-<!-- CSC linking -->
+<!-- CSS linking -->
     <link rel="stylesheet" href="style.css">
 
 
-<!-- Used this CSS for  OL sublist order -->
+<!-- Used this CSS in html for OL sublist order -->
     <style>  
     
         ol {
@@ -30,13 +30,12 @@
             margin-left: -20px;
         }
         
-
     </style>
 
 </head>
 <body>
     <div class="heading">
-        <h1> Medvednica</h1>     <!--the title-->
+        <h1 id="back-color"> Medvednica</h1>     <!--the title-->
         <h3>"The green haven of Zagreb"</h3> 
         <p>
             
@@ -55,8 +54,8 @@
     </div>
 
     <hr>
-<!-- making a content list with sublist -->
-    <div class="list-item li bordering">
+<!-- making a content list with sublist + changing the color with .class & background and opacity with ID-->
+    <div class="list-item li bordering" id="back-opacity-color">
         
     
        <h3 class="heading">Contents</h3>
@@ -74,6 +73,25 @@
         </ol>
     
     </div>
+<!-- COPY of the list as a difference in backgrounnd opacity -->
+    <div class="list-item li bordering" id="back-noopacity-color">
+        
+    
+        <h3 class="heading">Contents</h3>
+         <ol>
+             <li>Etymology</li>
+             <li>Climate
+                 <ol>
+                     <li>Temperature</li>
+                     <li>Precipitation</li>
+                 </ol></li>
+             <li>Skiing</li>
+             <li>Views of Medvednica
+             </li>
+ 
+         </ol>
+     
+     </div>
 <!-- and from here used "h3" -respecting hierarcy -->
     <h3 class="heading">Etymology</h3>
     <hr>

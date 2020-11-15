@@ -5,3 +5,20 @@ body {
 .image-change {
     border: 3px solid black;
 }
+
+
+/* color change of all <li> */
+
+.list-item li {
+    color: violet;
+}
+
+/* bordering the content list */
+.bordering {
+
+    display: inline-block;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+

@@ -61,14 +61,15 @@ body {
 /* NEW .HTML file */
 
 /* changes the class to blue and */
-.bluish {
-    color: blue;
-    
-}
-
-#blue {
+.blue {
     color: blue;
     font-size: 100px;
+}
+
+/* ID is unique  */
+#blue {
+    color: blue;
+    
 }
 
 .back-1 {

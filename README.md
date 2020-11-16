@@ -3,7 +3,28 @@
 **Instructions**: 
 * Go to the HTML file. Add a style tag to the head of the document. 
 * Change the color of the paragraph elements.
----------------------------------------------------------
+
+---------------------------------------------------------------
+# You've got class!
+
+**Instructions**:
+*  Change the color of all list items with a class of "list-item".
+* Change the color of all headings with the class of "heading".
+* Change the background color of the element with an id.
+
+**Bonus**: Add an id to another element and change the background color and change the opacity of the background color.
+
+![alt-text](reference-image.png "Reference Image")
+
+--------------------------------------------------------------
+# Make a Wikipedia Website 
+
+1. Open your favorite Wikipedia Article
+2. Turn it into a HTML webpage with correct headings and paragraphs where its appropriate
+3. See the example image for how it should look like. 
+![Example-Image](exercise.jpg)
+
+--------------------------------------------------------------
 # UI-Basics-Content-Classes&IDs
 
 # How about ID'S?
